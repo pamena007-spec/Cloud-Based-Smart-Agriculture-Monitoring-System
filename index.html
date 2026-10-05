@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Smart Agriculture Monitoring System</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <header>
+        <h1>🌱 Smart Agriculture Monitoring System</h1>
+        <p>Cloud-Based Farm Monitoring Dashboard</p>
+    </header>
+
+    <nav>
+        <a href="#dashboard">Dashboard</a>
+        <a href="#monitor">Monitoring</a>
+        <a href="#alerts">Alerts</a>
+    </nav>
+
+    <section class="hero">
+        <h2>Smart Farming with Cloud Technology</h2>
+        <p>Monitor soil, temperature, humidity and water levels in real time.</p>
+    </section>
+
+    <section id="dashboard" class="container">
+        <h2>Farm Dashboard</h2>
+
+        <div class="cards">
+
+            <div class="card">
+                <div class="icon">🌱</div>
+                <h3>Soil Moisture</h3>
+                <p id="soil">65%</p>
+                <span>Normal</span>
+            </div>
+
+            <div class="card">
+                <div class="icon">🌡️</div>
+                <h3>Temperature</h3>
+                <p id="temperature">28°C</p>
+                <span>Good</span>
+            </div>
+
+            <div class="card">
+                <div class="icon">💧</div>
+                <h3>Water Level</h3>
+                <p id="water">72%</p>
+                <span>Available</span>
+            </div>
+
+            <div class="card">
+                <div class="icon">☁️</div>
+                <h3>Humidity</h3>
+                <p id="humidity">68%</p>
+                <span>Normal</span>
+            </div>
+
+        </div>
+    </section>
+
+    <section id="monitor" class="container">
+        <h2>Farm Monitoring</h2>
+
+        <div class="monitor-box">
+            <h3>Farm Status</h3>
+
+            <p>
+                <strong>Farm Name:</strong>
+                Green Valley Farm
+            </p>
+
+            <p>
+                <strong>Location:</strong>
+                Tamil Nadu
+            </p>
+
+            <p>
+                <strong>Crop:</strong>
+                Paddy
+            </p>
+
+            <p>
+                <strong>Cloud Status:</strong>
+                <span class="online">● Online</span>
+            </p>
+
+            <button onclick="updateData()">🔄 Update Sensor Data</button>
+        </div>
+    </section>
+
+    <section id="alerts" class="container">
+        <h2>🚨 Alerts</h2>
+
+        <div id="alertBox" class="alert">
+            <strong>✓ All Systems Normal</strong>
+            <p>No critical alerts at the moment.</p>
+        </div>
+    </section>
+
+    <footer>
+        <p>© 2026 Smart Agriculture Monitoring System</p>
+        <p>Cloud Computing Project</p>
+    </footer>
+
+    <script src="script.js"></script>
+
+</body>
+</html>
